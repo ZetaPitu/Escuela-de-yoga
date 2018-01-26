@@ -13,18 +13,16 @@
         document.addEventListener( 'resume', onResume.bind( this ), false );
         
         // TODO: Cordova se ha cargado. Haga aquí las inicializaciones que necesiten Cordova.
-        var parentElement = document.getElementById('deviceready');
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-    };
+        var ref = cordova.InAppBrowser.open('https://www.inliveservice.com', '_self', 'location=no');
+       
+
+    }
 
     function onPause() {
         // TODO: esta aplicación se ha suspendido. Guarde el estado de la aplicación aquí.
-    };
+    }
 
     function onResume() {
         // TODO: esta aplicación se ha reactivado. Restaure el estado de la aplicación aquí.
-    };
+    }
 } )();

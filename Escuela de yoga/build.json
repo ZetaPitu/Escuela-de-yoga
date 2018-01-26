@@ -1,11 +1,12 @@
 {
-     "android": {
-         "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
-             "keystoreType": ""
-         }
-     }
+  "android": {
+    "release": {
+      "keystore": "g:\\escuela",
+      "storePassword": "andres34juan",
+      "alias": "ultimo",
+      "password": "andres34juan",
+      "keystoreType": "pkcs12"
+    }
+  
+  }
  }
